@@ -11,12 +11,9 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
  <link rel="stylesheet" type="text/css" href="css/header.css">
     <script src="js/jquery.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
-        body{
-            overflow-x: hidden
-        }
        
 /*        marquee*/
         .marquee {
@@ -195,17 +192,21 @@
 
 /* Responsive columns */
 @media screen and (max-width: 600px) {
+  body{
+  overflow-x: hidden;
+}
   .column {
     width: 100%;
     display: block;
     margin-bottom: 20px;
-      
+      margin-left: auto;
+      margin-right: auto;
   }
      .container {
-    width: 100%;
+     width: 100%;
     padding-right: 15px;
-    padding-top: 150px;
-    padding-left: 10%;
+    padding-top: 250px;
+    padding-left: 8%;
     
 }
 }
@@ -221,9 +222,9 @@
         .container {
     width: 100%;
     padding-right: 15px;
-    padding-top: 150px;
-    padding-left: 10%;
-    margin: 120px;
+    padding-top: 250px;
+    padding-left: 8%;
+   
 }
         
 /*        glowing button*/
@@ -414,11 +415,11 @@
         <a class="nav-link" href="#">Report crime</a>
       </li>    
          <li class="nav-item">
-        <a class="nav-link sactive" href="aware">Crime Awareness</a>
+        <a class="nav-link sactive" href="/">Crime Awareness</a>
+      </li> 
+        <li class="nav-item">
+        <a class="nav-link" href="cybercrime">Cyber Awareness</a>
       </li>  
-          <li class="nav-item">
-        <a class="nav-link" href="cyberaware">Cyber Crime</a>
-      </li>
 <!--
          <li class="nav-item">
         <a class="nav-link" href="resources">Resources</a>
@@ -428,7 +429,7 @@
         <a class="nav-link" href="helpline">Helpline</a>
       </li>  
          <li class="nav-item">
-        <a class="nav-link" href="resources">Contact Us</a>
+        <a class="nav-link" href="contactus">Contact Us</a>
       </li>  
       <li class="nav-item">
         <a class="nav-link" href="faq">FAQ</a>
@@ -503,10 +504,10 @@
         <p class="aa">There are many different kinds of crimes, it is generally  divided into four primary categories:Personal crimes, Property crimes, Inchoate crimes, Statutory crimes and Financial crimes.</p>
     </div>
   </div>
-        
+
   <div class="column">
     <div class="card">
-         <a href="crimerate" class="s">
+         <a href="crimestats" class="s">
         <span></span>
         <span></span>
         <span></span>
@@ -533,9 +534,10 @@
         <p class="aa">Crime not only affects economic productivity when victims miss work, but communities are also affected.</p>
     </div>
   </div>
-  div class="column">
+  
+  <div class="column">
     <div class="card">
-         <a href="needofawareness" class="s">
+         <a href="basicawareness" class="s">
         <span></span>
         <span></span>
         <span></span>
@@ -547,7 +549,6 @@
       <p class="aa">Being aware will give you an insight into your beliefs and whether they are positive or holding you back.</p>
     </div>
   </div>
- 
 </div>
 
     
@@ -587,7 +588,7 @@ document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +
     };
 
     $.carrousel.defaults = {
-        current: 0,	// index of current item
+        current: 0, // index of current item
         autoplay: true,// slideshow on / off
         interval: 3000  // time between transitions
     };
@@ -795,13 +796,13 @@ document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +
                     case 'outleft':
                         return {
                              'opacity': 0,
-							'visibility': 'hidden'
+              'visibility': 'hidden'
                         };
                         break;
                     case 'outright':
                         return {
                              'opacity': 0,
-							'visibility': 'hidden'
+              'visibility': 'hidden'
                         };
                         break;
                     case 'left':

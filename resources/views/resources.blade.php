@@ -78,10 +78,9 @@
          <li class="nav-item">
         <a class="nav-link" href="aware">Crime Awareness</a>
       </li>  
-         <li class="nav-item">
-        <a class="nav-link" href="cyberaware">Cyber Crime</a>
-      </li>
-<!--
+<li class="nav-item">
+        <a class="nav-link" href="cyberaware">Cyber Awareness</a>
+      </li><!--
          <li class="nav-item">
         <a class="nav-link active" href="resources">Resources</a>
       </li>  

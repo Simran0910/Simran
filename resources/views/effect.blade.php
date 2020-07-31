@@ -116,10 +116,10 @@ p{
          <li class="nav-item">
         <a class="nav-link sactive" href="aware">Crime Awareness</a>
       </li>  
-            <li class="nav-item">
-        <a class="nav-link" href="cyberaware">Cyber Crime</a>
+<li class="nav-item">
+        <a class="nav-link" href="cyberaware">Cyber Awareness</a>
       </li>
-         <li class="nav-item">
+        <li class="nav-item">
         <a class="nav-link " href="helpline">Helpline</a>
       </li>  
          <li class="nav-item">

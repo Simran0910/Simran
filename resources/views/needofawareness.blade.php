@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -184,10 +184,9 @@ q {font-style: italic;}
          <li class="nav-item">
         <a class="nav-link sactive" href="aware">Crime Awareness</a>
       </li>  
-           <li class="nav-item">
-        <a class="nav-link" href="cyberaware">Cyber Crime</a>
-      </li>
-         <li class="nav-item">
+ <li class="nav-item">
+        <a class="nav-link" href="cyberaware">Cyber Awareness</a>
+      </li>        <li class="nav-item">
         <a class="nav-link " href="helpline">Helpline</a>
       </li>  
          <li class="nav-item">

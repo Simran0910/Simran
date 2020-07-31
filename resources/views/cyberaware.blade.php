@@ -20,6 +20,7 @@
     <style>
 body{
   overflow-x: hidden;
+
 }
 .topnav {
   overflow: hidden;
@@ -27,7 +28,7 @@ body{
 }
 h1 {
     color: black;
-    font-size: 60px;
+    font-size: 40px;
 }
 h2 {
     color: black;
@@ -45,22 +46,41 @@ h3{
 }
 p{
   
-  font-size: 24px;
+  font-size:  5px;
 }
 li{
   font-size: 20px;
 }
 @media screen and (min-width: 480px) {
-  .container {
-    font-size: 20px;
-  }
+ p{
+  font-size: 20px
+ }
 }
 
 /* If screen size is 600px wide, or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 600px) {
-  .container {
-    font-size: 20px;
+  p{
+    font-size: 16px;
   }
+  h1{
+    font-size: 35px;
+  }
+  button{
+    width: 400px;
+  }
+.safety .col-md-6{
+  padding-top: 20px;
+}
+.modal-content {
+  background-color: white;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid black;
+  width: 100%;
+}
+.modal-content li{
+  font-size: 1em;
+}
 }
 
 .topnav a {
@@ -326,9 +346,14 @@ hr{
     object-position: center; 
     transition: 300ms;
 }
-
+@media screen and (max-width: 600px){
+ #myBtn-1{
+    width: 400px;
+  }
+}
 .card .card-content {
     padding: 30px;
+
 }
 
 .card .card-content .tag {
@@ -353,9 +378,11 @@ hr{
     font-weight: 700;
     transition: 300ms;
 }
-
+ .card-content p{
+    font-size: 18px;
+  }
 .card p {
-    color: #7B8591;
+    color: black;
     margin-top: 20px;
 }
 
@@ -444,6 +471,11 @@ body:hover .designer {
 .button-glow {
   animation: glowing 2000ms infinite;
 }
+@media screen and (max-width: 600px) {
+  .card-content p{
+    font-size: 15px;
+  }
+  }
 </style>
 </head>
 <body>
@@ -504,16 +536,16 @@ body:hover .designer {
         <a class="nav-link" href="#">Report crime</a>
       </li>    
          <li class="nav-item">
-        <a class="nav-link " href="aware">Crime Awareness</a>
+        <a class="nav-link " href="/">Crime Awareness</a>
       </li>  
           <li class="nav-item">
-        <a class="nav-link sactive" href="cyberaware">Cyber Crime</a>
+        <a class="nav-link sactive" href="cybercrime">Cyber Awareness</a>
       </li>
          <li class="nav-item">
         <a class="nav-link" href="helpline">Helpline</a>
       </li>  
          <li class="nav-item">
-        <a class="nav-link" href="resources">Contact Us</a>
+        <a class="nav-link" href="contactus">Contact Us</a>
       </li>  
       <li class="nav-item">
         <a class="nav-link" href="faq">FAQ</a>
@@ -525,7 +557,7 @@ body:hover .designer {
    
 </nav>
 <br>
-<div class="row" style="background-image: url(https://lh3.googleusercontent.com/proxy/ESNStzCCEUUYQ4HY-7lL3lItMapDGJvL9akCzOf4oQYipmFdRDtvEAkGl-lrwsRb9fjCWZWLtTcwyC5BpVhFJ1MgeLUow5wyUXJzwO_4);">
+<div class="row" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSp6VTZGf_nAE7P2rXjfGvfRBHaP09pGRMXnA&usqp=CAU);">
   <img src="https://www.itnonline.com/sites/default/files/Philips%20cybersecurity%20blog%20internet-1862315_1280.png" style="width: 100%; height: 200px;">
 
 </div>
@@ -543,7 +575,7 @@ body:hover .designer {
    </div>
    <div class="col-sm-4">
      
-  <img src="https://looppacificassets.s3.amazonaws.com/styles/no_watermark/s3/thumbnails/image/08qn_ixp_cybercrime.jpg?itok=lry9Kq1V" alt="cybercrime" style="width:100%; ">
+  <img src="https://looppacificassets.s3.amazonaws.com/styles/no_watermark/s3/thumbnails/image/08qn_ixp_cybercrime.jpg?itok=lry9Kq1V" alt="cybercrime" style="width:100%;  box-shadow: 4px 6px 8px 0 rgba(0, 0, 0, 0.2), 4px 6px 20px 0 rgba(0, 0, 0, 0.19); border-radius: 10px; ">
   
 </div>
    </div>
@@ -561,7 +593,7 @@ body:hover .designer {
             </div>
             <div class="card-content">
                 <a href="cpornography"><h3 class="title">Pornography</h3></a>
-                <p style="font-size: 20px;">Child pornography is a form of child sexual exploitation.Images of child pornography are also referred to as child sexual abuse images.</p>
+                <p>Child pornography is a form of child sexual exploitation.Images of child pornography are also referred to as child sexual abuse images.</p>
             </div>
         </div>
         <div class="card">
@@ -571,7 +603,7 @@ body:hover .designer {
             <div class="card-content">
               
                 <a href="phishing"><h3 class="title">Phishing</h3></a>
-                <p style="font-size: 20px;">Phishing targets are contacted by email, telephone or text message by someone posing as a legitimate institution to lure individuals into providing sensitive data.</p>
+                <p >Phishing targets are contacted by email, telephone or text message by someone posing as a legitimate institution to lure individuals into providing sensitive data.</p>
             </div>
         </div>
         <div class="card">
@@ -581,7 +613,7 @@ body:hover .designer {
             <div class="card-content">
                 
                 <a href="hacking"><h3 class="title">Hacking</h3></a>
-                <p style="font-size: 20px;">Hacking refers to activities that seek to compromise digital devices. Hackers are motivated by personal gain, to make a statement.</p>
+                <p >Hacking refers to activities that seek to compromise digital devices. Hackers are motivated by personal gain, to make a statement.</p>
             </div>
         </div>
             <div class="card">
@@ -591,7 +623,7 @@ body:hover .designer {
             <div class="card-content">
                 
                 <a href="jacking"><h3 class="title">Web-Jacking</h3></a>
-                <p style="font-size: 20px;">Web jacking is simply when someone clones your website, and tricks you to believe the cloned site is yours. The malicious link is placed somewhere on your webpage waiting for a click.</p>
+                <p >Web jacking is simply when someone clones your website, and tricks you to believe the cloned site is yours. The malicious link is placed somewhere on your webpage waiting for a click.</p>
             </div>
         </div>
         <div class="card">
@@ -601,7 +633,7 @@ body:hover .designer {
             <div class="card-content">
                 
                 <a href="electronicfrogery"><h3 class="title">Forgery</h3></a>
-                <p style="font-size: 20px;">The misuse of computer networks, the internet, and various avenues within the online community in order to defraud potential victims of identity theft is classified as electronic – or online forgery.</p>
+                <p >The misuse of computer networks, the internet, and various avenues within the online community in order to defraud potential victims of identity theft is classified as electronic – or online forgery.</p>
             </div>
         </div>
         <div class="card">
@@ -611,7 +643,7 @@ body:hover .designer {
             <div class="card-content">
                
                 <a href="sexting"><h3 class="title">Sexting</h3></a>
-                <p style="font-size: 20px;">Sexting is sending, receiving, or forwarding sexually explicit messages, photographs, or images, primarily between mobile phones, of oneself to others. It may also include the use of a computer or any digital device.</p>
+                <p>Sexting is sending, receiving, or forwarding sexually explicit messages, photographs, or images, primarily between mobile phones, of oneself to others. It may also include the use of a computer or any digital device.</p>
             </div>
         </div>
             <div class="card">
@@ -621,7 +653,8 @@ body:hover .designer {
             <div class="card-content">
                 
                 <a href="threatning"><h3 class="title">Threatning</h3></a>
-                <p style="font-size: 20px;">A mess</p>
+                <p >A threat can be implied; it does not have to explicitly outline violence. It is judged on
+whether it is likely to cause fear for the intended audience of that message.</p>
             </div>
         </div>
             <div class="card">
@@ -631,7 +664,7 @@ body:hover .designer {
             <div class="card-content">
                
                 <a href="defamatory"><h3 class="title">Defamation</h3></a>
-                <p style="font-size: 20px;">Defamation is the oral or written communication of a false statement about another that unjustly harms their reputation and usually constitutes a tort or crime</p>
+                <p >Defamation is the oral or written communication of a false statement about another that unjustly harms their reputation and usually constitutes a tort or crime</p>
             </div>
         </div>
             <div class="card">
@@ -640,7 +673,7 @@ body:hover .designer {
             </div>
             <div class="card-content">
                 <a href="spoofing"><h3 class="title">Email Spoofing</h3></a>
-                <p style="font-size: 20px;"> The core email protocols do not have any mechanism for authentication, making it common for spam and phishing emails to use such spoofing to mislead.</p>
+                <p > The core email protocols do not have any mechanism for authentication, making it common for spam and phishing emails to use such spoofing to mislead.</p>
             </div>
         </div>
     </section>
@@ -649,13 +682,13 @@ body:hover .designer {
   
 </div>
 
-
+<div class="safety">
 <h1><b>Cyber Crime Safety Tips</b></h1>
 <hr>
 
 <div class="row">
-  <div class="col-md-6" style="padding-left: 140px;">
-    <button type="button" class="btn btn-lg btn-link button-glow" id="myBtn-1" style="width: 600px; background-color: #b50d29; color: white;" ><p>  Cyber safety tips for Children</p></button>
+  <div class="col-md-6" style="margin-left: auto; margin-right: auto;">
+    <button type="button" class="btn btn-lg btn-link button-glow" id="myBtn-1" style="width: 80%; background-color: #b50d29; color: white; margin-left: 10%; margin-right: auto;" ><p>  Cyber safety tips for Children</p></button>
      <div id="myModal-1" class="modal">
 
   <!-- Modal content -->
@@ -677,7 +710,7 @@ body:hover .designer {
 </div>
 <br>
 <br>
-<button type="button" class="btn btn-lg btn-link button-glow"  id="myBtn-2" style="width: 600px; background-color: #b50d29; color: white;"><p>  Cyber safety tips for women</p></button>
+<button type="button" class="btn btn-lg btn-link button-glow"  id="myBtn-2" style="width: 80%; background-color: #b50d29; color: white; margin-left: 10%; margin-right: auto;"><p>  Cyber safety tips for women</p></button>
      <div id="myModal-2" class="modal">
 
   <!-- Modal content -->
@@ -701,7 +734,7 @@ body:hover .designer {
 </div>
 <br>
 <br>
-<button type="button" class="btn btn-lg btn-link button-glow"  id="myBtn-3" style="width: 600px; background-color: #b50d29; color: white;"><p> Cyber safety tips for Senior Citizen</p></button>
+<button type="button" class="btn btn-lg btn-link button-glow"  id="myBtn-3" style="width: 80%; background-color: #b50d29; color: white; margin-left: 10%; margin-right: auto;"><p> Cyber safety tips for Senior Citizen</p></button>
      <div id="myModal-3" class="modal">
 
   <!-- Modal content -->
@@ -726,7 +759,7 @@ body:hover .designer {
 </div>
 <br>
 <br>
-<button type="button" class="btn btn-lg btn-link button-glow"  id="myBtn-4" style="width: 600px; background-color: #b50d29; color: white;"><p>  Cyber safety tips for Parents</p></button>
+<button type="button" class="btn btn-lg btn-link button-glow"  id="myBtn-4" style="width: 80%; background-color: #b50d29; color: white; margin-left: 10%; margin-right: auto;"><p>  Cyber safety tips for Parents</p></button>
      <div id="myModal-4" class="modal">
 
   <!-- Modal content -->
@@ -758,8 +791,8 @@ body:hover .designer {
 
   </div>
  
-  <div class="col-md-5" style="padding-left: 90px;">
-          <button type="button" class="btn btn-lg btn-link button-glow"  id="myBtn-5" style="width: 600px; background-color: #b50d29; color: white;"><p>  Cyber safety tips for Businesspersons</p></button>
+  <div class="col-md-6" style="margin-left: auto; margin-right: auto;">
+          <button type="button" class="btn btn-lg btn-link button-glow"  id="myBtn-5" style="width: 80%; background-color: #b50d29; color: white;margin-left: 10%; margin-right: auto;"><p>  Cyber safety tips for Businesspersons</p></button>
      <div id="myModal-5" class="modal">
 
   <!-- Modal content -->
@@ -785,7 +818,7 @@ body:hover .designer {
 </div>
 <br>
 <br>
-<button type="button" class="btn btn-lg btn-link button-glow"  id="myBtn-6" style="width: 600px; background-color: #b50d29; color: white;"> <p> Social Media Safety Tips</p></button>
+<button type="button" class="btn btn-lg btn-link button-glow"  id="myBtn-6" style="width: 80%; background-color: #b50d29; color: white;margin-left: 10%; margin-right: auto;"> <p> Social Media Safety Tips</p></button>
      <div id="myModal-6" class="modal">
 
   <!-- Modal content -->
@@ -809,7 +842,7 @@ body:hover .designer {
 </div>
 <br>
 <br>
-<button type="button" class="btn btn-lg btn-link button-glow"  id="myBtn-7" style="width: 600px; background-color: #b50d29; color: white;"><p>  Social Media Precautions For Businessperons</p></button>
+<button type="button" class="btn btn-lg btn-link button-glow"  id="myBtn-7" style="width: 80%; background-color: #b50d29; color: white; margin-left: 10%; margin-right: auto;"><p>  Social Media Precautions For Businessperons</p></button>
      <div id="myModal-7" class="modal">
 
   <!-- Modal content -->
@@ -833,7 +866,7 @@ body:hover .designer {
 </div>
 <br>
 <br>
-<button type="button" class="btn btn-lg btn-link button-glow"  id="myBtn-8" style="width: 600px; background-color: #b50d29; color: white;"><p> Cyber Safety For Net Banking Users</p></button>
+<button type="button" class="btn btn-lg btn-link button-glow"  id="myBtn-8" style="width: 80%; background-color: #b50d29; color: white; margin-left: 10%; margin-right: auto;"><p> Cyber Safety For Net Banking Users</p></button>
      <div id="myModal-8" class="modal">
 
   <!-- Modal content -->
@@ -853,6 +886,8 @@ body:hover .designer {
    </ul>
   </div>
 </div>
+</div>
+
   </div>
 </div>
 </div>
@@ -873,7 +908,7 @@ body:hover .designer {
     </p>
 </div>
 <div class="col-md-4">
-  <img src="https://reciprocitylabs.com/wp-content/uploads/2019/02/Cybersecurity-Blue.jpg">
+  <img src="https://reciprocitylabs.com/wp-content/uploads/2019/02/Cybersecurity-Blue.jpg" style=" box-shadow: 4px 6px 8px 0 rgba(0, 0, 0, 0.2), 4px 6px 20px 0 rgba(0, 0, 0, 0.19); border-radius: 10px;">
 </div>
 
     </div>
@@ -889,7 +924,7 @@ body:hover .designer {
 </div>
    </div>
   
-    <button id="myBtn" title="Go to top"  style="font-size:25px;color:white">Register</button>
+    <button id="myBtn" title="Go to top"  style="font-size:25px;color:white; width: 120px;">Register</button>
         
     <br> 
       <script>
@@ -1163,6 +1198,9 @@ window.onclick = function(event) {
   }
 }
 </script>
+
+
+
 
 </body>
 </html>
